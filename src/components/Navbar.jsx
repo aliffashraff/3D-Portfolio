@@ -5,8 +5,11 @@ import { logo } from '../assets/images';
 const Navbar = () => {
   return (
     <header className="header">
-      <NavLink to="/">
-        <img src={logo} alt="logo" className="w-18 h-18 object-contain" />
+      <NavLink
+        to="/"
+        className="w-16 h-12 rounded-lg bg-white items-center justify-center flex font-bold shadow-md hover:drop-shadow-lg active:drop-shadow-none transition"
+      >
+        <p className="blue-gradient_text">ALIFF</p>
       </NavLink>
       <nav className="flex text-lg gap-7 font-medium">
         <NavLink

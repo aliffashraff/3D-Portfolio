@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { arrow } from '../assets/icons';
+import Socials from './Socials';
 
 // the things that only changes in each section
 const InfoBox = ({ text, link, btnText }) => (
@@ -18,8 +19,12 @@ const InfoBox = ({ text, link, btnText }) => (
 const renderContent = {
   1: (
     <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
-      Hi, I am <span className="font-semibold">Aliff</span> 👋
-      <br />A Software Engineer from Malaysia
+      Hi, I am <span className="font-semibold">Aliff Ashraff</span> 👋
+      <br />A Software Developer from Malaysia
+      <br />
+      <br />
+      Let's stay connected!
+      <Socials />
     </h1>
   ),
   2: (
