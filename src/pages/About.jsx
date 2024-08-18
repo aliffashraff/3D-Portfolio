@@ -7,6 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import { skills, experiences } from '../constants';
 import CTA from '../components/CTA';
+import Resume from '../components/Resume';
 
 const About = () => {
   return (
@@ -20,8 +21,24 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Malaysia, specializing in technical
-          education through hands-on learning and building applications
+          A Software Developer based in Selangor, Malaysia specializing in
+          technical education through hands-on learning and building
+          applications.
+        </p>
+        <p>
+          I possess a strong foundation in Electronics Engineering and am
+          currently pursuing a Master of Software Engineering at Universiti
+          Putra Malaysia. My experience as a Test Engineer at II-VI Incorporated
+          sharpened my Data Analytics and Management skills, while my role at
+          Telekom Malaysia Berhad enhanced my management and communication
+          abilities.
+        </p>
+        <p>
+          Driven by a passion for Web and Software Development, I have built
+          full-stack applications with a focus on responsive design, efficient
+          data handling, and user experience. With skills in React, Node.js,
+          Express, and MongoDB, I am eager to advance my career in software
+          development and contribute to innovative solutions in the industry.
         </p>
       </div>
 
@@ -48,8 +65,9 @@ const About = () => {
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            I've had the opportunity to contribute to different organizations,
+            experiencing several roles and refining my skills while working with
+            talented professionals. Here's the rundown:
           </p>
         </div>
 
@@ -92,7 +110,7 @@ const About = () => {
                   {experience.points.map((point, index) => (
                     <li
                       key={`experience-point-${index}`}
-                      className="text-black-500/50 font-normal pl-1 text-sm"
+                      className="text-black-500/75 font-normal pl-1 text-sm"
                     >
                       {point}
                     </li>
@@ -103,6 +121,8 @@ const About = () => {
           </VerticalTimeline>
         </div>
       </div>
+
+      <Resume />
 
       <hr className="border-slate-200" />
 

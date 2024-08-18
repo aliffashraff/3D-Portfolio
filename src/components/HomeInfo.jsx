@@ -20,7 +20,7 @@ const renderContent = {
   1: (
     <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
       Hi, I am <span className="font-semibold">Aliff Ashraff</span> 👋
-      <br />A Software Developer from Malaysia
+      <br />A Software Developer from Selangor, Malaysia
       <br />
       <br />
       Let's stay connected!
@@ -30,25 +30,25 @@ const renderContent = {
   2: (
     <InfoBox
       text={
-        'Worked with many companies and picked up many skills along the way'
+        'Acquired a broad range of skills over time and gained valuable experience across various companies.'
       }
       link={'/about'}
-      btnText={'Learn more'}
+      btnText={'Explore further'}
     />
   ),
   3: (
     <InfoBox
       text={
-        'Led multiple projects to success over the years. Curious about the impact?'
+        "Want a closer look about what I've built and worked on? Explore my projects and see what I've accomplished!"
       }
       link={'/projects'}
-      btnText={'Visit my portfolio'}
+      btnText={'Visit my projects'}
     />
   ),
   4: (
     <InfoBox
       text={
-        'Need a project done or looking for a dev? I am just a few keystrokes away'
+        'Need a project done or looking for a dev? I am just a few keystrokes away!'
       }
       link={'/contact'}
       btnText={"Let's talk"}
