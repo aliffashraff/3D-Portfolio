@@ -1,5 +1,6 @@
 # 3D Portfolio
- <!-- Replace with actual screenshot if available -->
+ ![portfolio](https://github.com/user-attachments/assets/fe34ece5-7cff-4153-85f8-b8adbae841ab)
+
 
 ## Description
 Welcome to my 3D Portfolio website, showcasing my skills, projects, and experiences as a software engineer. The site features an interactive 3D interface, offering an engaging way to explore my work and background.
